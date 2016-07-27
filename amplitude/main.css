@@ -1,0 +1,52 @@
+.amplitude-container {
+  position: relative;
+  width: 10em;
+  height: 5em;
+  margin: 5em auto;
+  border-bottom: 0.667em solid black;
+  box-shadow: 0 0.667em 0 0 #FF4785;
+}
+
+.amplitude-container:after {
+  content: "";
+  border-bottom: 0.667em solid red;
+}
+
+.bar {
+  width: 2em;
+  bottom: 0.667em;
+  background: #FF4785;
+}
+
+.bar:first-of-type {
+  position: absolute;
+  left: 0;
+  animation: amplitude 1.7s 0s infinite ease-out alternate;
+}
+
+.bar:nth-of-type(2) {
+  position: absolute;
+  left: 2.667em;
+  animation: amplitude 1.5s 0s infinite ease-out alternate;
+}
+
+.bar:nth-of-type(3) {
+  position: absolute;
+  right: 2.667em;
+  animation: amplitude 1.8s 0s infinite ease-out alternate;
+}
+
+.bar:last-of-type {
+  position: absolute;
+  right: 0;
+  animation: amplitude 1.3s 0s infinite ease-out alternate;
+}
+
+@keyframes amplitude {
+  0% {
+    height: 0.667em;
+  }
+  100% {
+    height: 4.333em;
+  }
+}
