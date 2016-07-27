@@ -1,0 +1,35 @@
+.s2c {
+  margin: 50px auto;
+  width: 100px;
+  height: 100px;
+  background-color: #E57373;
+  animation: s2c 2s infinite cubic-bezier(1,.015,.295,1.225) alternate;
+}
+
+@keyframes s2c {
+  0% {
+    border-radius: 0;
+    background: #E57373;
+    transform: rotate(0deg);
+  }
+  25% {
+    border-radius: 50% 0 0 0;
+    background: #84D2F6;
+    transform: rotate(45deg);
+  }
+  50% {
+    border-radius: 50% 50% 0 0;
+    background: #FFCB28;
+    transform: rotate(90deg);
+  }
+  75% {
+    border-radius: 50% 50% 50% 0;
+    background: #FE4D89;
+    transform: rotate(135deg);
+  }
+  100% {
+    border-radius: 50%;
+    background: #00BCD4;
+    transform: rotate(180deg);
+  }
+}
