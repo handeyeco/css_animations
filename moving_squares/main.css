@@ -19,17 +19,17 @@ body, html {
 
 .square:first-of-type {
   background-color: #669999;
-  animation: bigsquare 8s infinite ease;
+  animation: bigsquare 8s 5 ease;
 }
 
 .square:nth-of-type(2) {
   background-color: #CC6699;
-  animation: mediumsquare 4s infinite ease reverse;
+  animation: mediumsquare 4s reverse 5 ease;
 }
 
 .square:last-of-type {
   background-color: #998099;
-  animation: smallsquare 10s infinite alternate;
+  animation: smallsquare 10s 5 alternate;
 }
 
 @keyframes smallsquare {
