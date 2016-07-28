@@ -11,9 +11,8 @@ body {
   width: 250px;
   height: 250px;
   background: #F52B1A;
-  /*transform: rotate(-45deg);*/
-  border-left: 10px solid #F1FCE5;
-  border-bottom: 10px solid #F1FCE5;
+  border-left: 8px solid #F1FCE5;
+  border-bottom: 8px solid #F1FCE5;
   border-bottom-left-radius: 100%;
   box-shadow: -10px 10px 0 10px #2CAD40;
 }
@@ -32,8 +31,8 @@ body {
   box-shadow:
     -10px -50px 0 0 black,
     50px 10px 0 0 black,
-    -50px 0px 0 0 black,
-    0px 50px 0 0 black,
+    -60px 10px 0 0 black,
+    -10px 60px 0 0 black,
     -80px -50px 0 0 black,
     50px 80px 0 0 black;
 }

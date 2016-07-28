@@ -1,0 +1,26 @@
+body {
+  background-color: #DAD9C7;
+}
+
+.tycho {
+  margin: auto;
+  height: 80vh;
+  width: 80vh;
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom,
+    #D5835B 15%,
+    #D47966 15%,
+    #D47966 30%,
+    #B86A60 30%,
+    #B86A60 42%,
+    #D27486 42%,
+    #D27486 52%,
+    #AB627D 52%,
+    #AB627D 62%,
+    #A36D8F 62%,
+    #A36D8F 72%,
+    #756C87 72%,
+    #756C87 82%,
+    #313D53 82%
+    )
+}
