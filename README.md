@@ -1,6 +1,6 @@
-# CSS Animations
+# CSS Animations & Drawings
 
-Working on my CSS animation chops.
+Working on my CSS chops.
 
 ## Tutorials
 
