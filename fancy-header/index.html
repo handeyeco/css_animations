@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="gradient"><p class="content">Two Elements, One Gradient</p></div>
+    <p class="note">This seems like the most effective method because the line resizes with the content. Add a gradient on the background div that makes the line and then overlay an element with a background that matches the main background. Unfortunately this means when the main background is changed, the top element also needs its background changed.</p>
+    <div class="gradient2 content">One Element, Two Gradients</div>
+    <p class="note">This uses two gradients, one to create the line and another to white out the line over the content. This doesn't resize with the content and must be changed when the background changes. Worst method.</p>
+    <div class="pseudo content">One Element, One Pseudo Ele</div>
+    <p class="note">This is a good method in that it's transparent, so colors don't need to be adjusted. The downfall of this method is that it's a little weird (using pseudo elements) and doesn't adjust with content. It's also a little more work placing the psuedo elements.</p>
+
+    <button onclick="changeBackground();">Change Background</button>
+    <button onclick="changeContent();">Change Content</button>
+</body>
+
+</html>

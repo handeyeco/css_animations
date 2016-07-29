@@ -24,7 +24,7 @@ body {
   height: 50px;
   background: #BE6B61;
   border-radius: 50%;
-  border: 5px solid #736F88;
+  border: 5px dotted #736F88;
 }
 
 .sun_logo:after {
@@ -125,7 +125,7 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  border: 5px solid #E08565;
+  border: 5px dotted #E08565;
   background: #EB9E6C;
   z-index: auto;
 }

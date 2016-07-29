@@ -1,0 +1,86 @@
+body {
+  font-size: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.gradient {
+  /*border: 1px solid blue;*/
+  background-image: linear-gradient(to bottom,
+    #FFF 50%,
+    #000 50%,
+    #000 52%,
+    #FFF 52%
+    );
+}
+
+.gradient p {
+  display: inline-block;
+  background: white;
+  padding: 0 1.2em;
+}
+
+.gradient2 {
+  /*border: 1px solid blue;*/
+  padding: 1em 0;
+  background-image: linear-gradient(to right,
+    transparent 17.9%,
+    #FFF 17.9%,
+    #FFF 82.1%,
+    transparent 82.1%
+  ), linear-gradient(to bottom,
+    transparent 50%,
+    #000 50%,
+    #000 52%,
+    transparent 52%
+  );
+}
+
+.pseudo {
+  /*border: 1px solid blue;*/
+  padding: 1em 0;
+  position: relative;
+}
+
+.pseudo:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  height: 1px;
+  width: 6.5em;
+  background: #000;
+  box-shadow: 29.7em 0 0 0 black;
+}
+
+.note {
+  text-transform: none;
+  text-align: left;
+  font-size: initial;
+  letter-spacing: 0.1em;
+}
+
+button {
+  padding: 0.8em;
+  border-radius: 0;
+  border: 1px double black;
+  background: white;
+  font-size: 1em;
+  font-family: serif;
+  letter-spacing: 0.1em;
+  position: fixed;
+  bottom: 10px;
+  outline: none;
+}
+
+button:first-of-type {
+  left: 10px;
+}
+
+button:last-of-type {
+  right: 10px;
+}
