@@ -1,0 +1,155 @@
+body {
+  background: #E0D7CD;
+}
+
+.sun_logo {
+  display: inline-block;
+  position: relative;
+  margin: 40px 0 0 40px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 5px solid #E08565;
+  background: #EB9E6C;
+  z-index: auto;
+}
+
+.sun_logo:before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  left: -14.5px;
+  top: -14.5px;
+  width: 50px;
+  height: 50px;
+  background: #BE6B61;
+  border-radius: 50%;
+  border: 5px solid #736F88;
+}
+
+.sun_logo:after {
+  content: "";
+  z-index: -10;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  width: 70px;
+  height: 70px;
+  background: #353C58;
+  border-radius: 50%;
+  /*border: 10px solid #736F88;*/
+}
+
+.sunrise_logo {
+  display: inline-block;
+  position: relative;
+  margin: 40px 0 0 100px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #EB9E6C;
+  z-index: auto;
+}
+
+.sunrise_logo:before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  width: 40px;
+  height: 20px;
+  background: #E08565;
+  border: 5px solid #BE6B61;
+  border-radius: 90px 90px 0 0;
+}
+
+.sunrise_logo:after {
+  content: "";
+  z-index: -10;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  width: 60px;
+  height: 30px;
+  background: #736F88;
+  border-radius: 90px 90px 0 0;
+  border: 5px solid #353C58;
+}
+
+.sunrise_logo2 {
+  display: inline-block;
+  position: relative;
+  margin: 40px 0 0 100px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #EB9E6C;
+  z-index: auto;
+}
+
+.sunrise_logo2:before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  width: 40px;
+  height: 20px;
+  background: #E08565;
+  border-top: 5px solid #BE6B61;
+  border-right: 5px solid #BE6B61;
+  border-left: 5px solid #BE6B61;
+  border-radius: 90px 90px 0 0;
+}
+
+.sunrise_logo2:after {
+  content: "";
+  z-index: -10;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  width: 60px;
+  height: 30px;
+  background: #736F88;
+  border-radius: 90px 90px 0 0;
+  border-top: 5px solid #353C58;
+  border-right: 5px solid #353C58;
+  border-left: 5px solid #353C58;
+}
+
+.planet_logo {
+  display: inline-block;
+  position: relative;
+  margin: 40px 0 0 100px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 5px solid #E08565;
+  background: #EB9E6C;
+  z-index: auto;
+}
+
+.planet_logo:before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  width: 50px;
+  height: 50px;
+  background: #BE6B61;
+  border-radius: 50%;
+}
+
+.planet_logo:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #353C58;
+  bottom: -2px;
+  left: -2px;
+  box-shadow: 30px 5px 0 -2px #736F88;
+}
